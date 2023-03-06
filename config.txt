@@ -1,0 +1,20 @@
+server Social media App: Client {
+
+    dependencias: {
+        react-redux: manejo del estado global, generacion del provider
+        @reduxjs/toolkit: creacion del estado global de la app
+        redux-persist: persistir info de nuestro estado global en el local storage
+        react-dropzone:
+        dotenv
+        formik
+        yup
+        react-router-dom@6
+
+        styles:{
+            @mui/material
+            @emotion/react 
+            @emotion/styled
+            @mui/icons-material
+        }
+    }
+}
